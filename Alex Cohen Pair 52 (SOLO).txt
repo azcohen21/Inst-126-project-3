@@ -1,0 +1,29 @@
+﻿Pair 52 - SOLO
+
+
+My program will need to read in data from the log sheet and structure it into a format that can be analyzed using the following functions:
+
+
+A function to count the total number of days per user when suspicious activity occurs, defined as:
+* A user logs in more than 5 times in a single day;
+* A user logs in between 12:00-5:00 a.m.
+
+
+A function to count the number of days per user when the user engages in irresponsible behavior, defined as:
+* The number of logins per user per day exceeds the number of logouts per user per day.
+
+
+A function to count the total number of days when any system glitch occurs, defined as: 
+* Any day in which any user has more reported logouts than logins.
+   * This requires an additional function that flags any day per user when that particular user has more recorded logouts than logins.
+
+
+A function to identify unique domains and count the number of users from each domain, that does the following:
+* Searches the user email addresses, captures each domain when it appears for the first time, and records one user per domain; and 
+* For each subsequent appearance of the domain, it increments the user count for that domain.
+
+
+A function or functions will also create the required reports in the appropriate format.
+
+
+I will be using dictionaries within dictionaries (nested dictionaries) to store different parts of the data from the log sheet and to store results from the respective functions.
